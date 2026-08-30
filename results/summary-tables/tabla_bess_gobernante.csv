@@ -1,0 +1,5 @@
+caso,gmd_m,barra_bess,p_bess_mw,v_min_n1_pu,barra_v_min,contingencia_gobernante,margen_0p95_pu,carga_max_n1_pct,elemento_gobernante_termico,contingencia_termica,sobrecargas,cumplimiento,interpretacion,procedencia
+BESS-01,0.9144,5,10,0.949679,6,FallaLinea1_PuntaEvans_SchoolHouse,-0.000321,62.695502,2-4-1,FallaLinea1_ElBight_SchoolHouse,0,NO_CUMPLE,"El máximo evaluado de 10 MW en B5 no alcanzó el criterio de 0,95 p.u.",SIM
+BESS-02,0.9144,6,5.25,0.950418,6,FallaLinea1_PuntaEvans_SchoolHouse,0.000418,83.085516,3-5-2,FallaTrafo1_ElBight,0,CUMPLE,"La potencia evaluada de 5,25 MW en B6 cumplió el criterio de tensión y los límites térmicos.",SIM
+BESS-03,1.2192,5,10,0.949337,6,FallaLinea1_PuntaEvans_SchoolHouse,-0.000663,62.71193,2-4-1,FallaLinea1_ElBight_SchoolHouse,0,NO_CUMPLE,"El máximo evaluado de 10 MW en B5 no alcanzó el criterio de 0,95 p.u.",SIM
+BESS-04,1.2192,6,5.25,0.950074,6,FallaLinea1_PuntaEvans_SchoolHouse,0.000074,83.08632,3-5-2,FallaTrafo1_ElBight,0,CUMPLE,"La potencia evaluada de 5,25 MW en B6 cumplió el criterio de tensión y los límites térmicos. El margen es numéricamente estrecho y depende de las hipótesis del modelo.",SIM

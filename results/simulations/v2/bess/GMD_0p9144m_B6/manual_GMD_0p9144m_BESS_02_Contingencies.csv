@@ -1,0 +1,12 @@
+Contingency
+Name,Skip,Category,Processed,Solved,RemedialActionInclude,ScreenAllow,PostCTGAuxFile,LoadMWIslanded,GenMWIslanded,OccurredGlobalCount,OccurredTransientCount,OccurredRemedialCount,ViolCustom,Violations,BranchMaxPerc,MinVolt,MaxVolt,InterfaceMaxPerc,BusPairAngleMax,Memo
+FallaLinea1_PuntaEvans_ElBight,NO,,YES,YES,YES,NO,none,,,0,0,0,0,0,,,,,,
+FallaLinea2_PuntaEvans_ElBight,NO,,YES,YES,YES,NO,none,,,0,0,0,0,0,,,,,,
+FallaLinea1_PuntaEvans_SchoolHouse,NO,,YES,YES,YES,NO,none,,,0,0,0,0,0,,,,,,
+FallaLinea1_ElBight_SchoolHouse,NO,,YES,YES,YES,NO,none,,,0,0,0,0,0,,,,,,
+FallaElevador1_PuntaEvans,NO,,YES,YES,YES,NO,none,,,0,0,0,0,0,,,,,,
+FallaElevador2_PuntaEvans,NO,,YES,YES,YES,NO,none,,,0,0,0,0,0,,,,,,
+FallaElevador3_PuntaEvans,NO,,YES,YES,YES,NO,none,,,0,0,0,0,0,,,,,,
+FallaTrafo1_ElBight,NO,,YES,YES,YES,NO,none,,,0,0,0,0,0,,,,,,
+FallaTrafo2_ElBight,NO,,YES,YES,YES,NO,none,,,0,0,0,0,0,,,,,,
+FallaTrafo1_SchoolHouse,NO,,YES,YES,YES,NO,none,"   13,06","    5,25",0,0,0,0,0,,,,,,

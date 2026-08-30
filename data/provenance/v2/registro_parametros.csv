@@ -1,0 +1,22 @@
+objeto,clave,campo,unidad,valor_historico,valor_v2,clase_evidencia,fuente,motivo
+Bus,1,Name,text,1,PE_132,OBS/SPEC,unifilar y decisión del autor,alinear nombre con 13.2 kV
+Bus,1,NomkV,kV,13.2,13.2,OBS,PowerWorld y decisión del autor,generación a 13.2 kV
+Transformer,1-2-1,XFNomkVbaseFrom,kV,por verificar,13.2,SPEC,decisión del autor,coherencia con barra 1
+Transformer,1-2-2,XFNomkVbaseFrom,kV,por verificar,13.2,SPEC,decisión del autor,coherencia con barra 1
+Transformer,1-2-3,XFNomkVbaseFrom,kV,por verificar,13.2,SPEC,decisión del autor,coherencia con barra 1
+Transformer,4-6-1,RateA,MVA,0,25,PROXY/SPEC,homogeneidad seis transformadores,activar evaluación térmica
+Line,2-3-1,Length,km,4.7,4.7,OBS/PROXY,SSPD 2022,conservar topología reproducible
+Line,2-3-2,Length,km,4.7,4.7,OBS/PROXY,SSPD 2022,conservar topología reproducible
+Line,2-4-1,Length,km,6.0,6.0,PROXY/visual,unifilar,lectura visual declarada
+Line,3-4-1,Length,km,1.7,1.7,OBS/PROXY,expediente,conservar topología reproducible
+Line,ALL,R_ohm_km,ohm/km,0.3805774278,0.3805774278,PROXY,ACSR 4/0 Penguin,GMD no modifica resistencia
+Line,ALL,RateA,MVA,21.81085,21.81085,DER/PROXY,ampacidad proxy,GMD no modifica ampacidad
+Line,ALL,GMD_A,m,0.3048,0.9144,HIP/SPEC,envolvente acordada,reemplazar geometría no construible en conclusiones
+Line,ALL,X_A,ohm/km,0.3444881890,0.42732,DER/HIP,cálculo SI,GMD 0.9144 m
+Line,ALL,GMD_B,m,0.3048,1.2192,HIP/SPEC,envolvente acordada,reemplazar geometría no construible en conclusiones
+Line,ALL,X_B,ohm/km,0.3444881890,0.44901,DER/HIP,cálculo SI,GMD 1.2192 m
+Generator,1-DG,Pmax,MW,64.99,64.99,OBS/DER,PowerWorld y flota,capacidad instalada no disponibilidad
+Generator,1-DG,Pmin,MW,1.15,1.15,PROXY,unidad EMD mínima,no representa toda la flota
+Generator,1-RS,AVR,bool,YES,NO,SPEC,Qmin=Qmax=0,evitar regulador sin capacidad Q
+BESS,B5/B6,Pmin/Pmax,MW,NA,0/10,SPEC,objetivo de campaña,barrido activo
+BESS,B5/B6,Qmin/Qmax,MVAr,NA,0/0,SPEC,objetivo de campaña,factor de potencia uno

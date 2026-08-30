@@ -1,0 +1,26 @@
+id,categoria,requisito,fuente,evidencia_fuente,criterio_v4,estado_inicial
+VIU-001,formato,Folio A4,Tutoria Inicial,p. 25,A4,pendiente_verificacion
+VIU-002,formato,Arial 12 para texto general,Tutoria Inicial,p. 25,Arial 12 salvo ecuaciones y elementos especializados,pendiente_verificacion
+VIU-003,formato,Texto justificado,Tutoria Inicial,p. 25,Justificado en cuerpo,pendiente_verificacion
+VIU-004,formato,Interlineado 1.5,Tutoria Inicial,p. 25,1.5 en cuerpo,pendiente_verificacion
+VIU-005,formato,Márgenes de 3 cm,Tutoria Inicial,p. 25,3 cm en cuerpo; portada preservada según plantilla,pendiente_verificacion
+VIU-006,extension,80 ± 20 páginas sin anexos,Tutoria Inicial,p. 25,82–85 antes de anexos,pendiente_verificacion
+VIU-007,extension,Anexos como máximo 10 %,Tutoria Inicial,p. 25,<10 % del total,pendiente_verificacion
+VIU-008,resumen,Resumen de 200–300 palabras,Tutoria Inicial,p. 14,200–300 palabras,pendiente_verificacion
+VIU-009,resumen,3–5 palabras clave,Tutoria Inicial,p. 14,3–5 por idioma,pendiente_verificacion
+VIU-010,estructura,Introducción finaliza con mapa del documento,Tutoria Inicial,p. 16,Párrafo de organización al cierre,pendiente_verificacion
+VIU-011,coherencia,Cada objetivo tiene conclusión asociada,Tutoria Inicial,p. 22,Trazabilidad objetivo-método-resultado-discusión-conclusión,pendiente_verificacion
+VIU-012,conclusiones,No introducir resultados nuevos,Tutoria Escritura,p. 11,Sin datos nuevos,pendiente_verificacion
+VIU-013,discusion,Contextualizar resultados entre sí y con marco teórico,Tutoria Inicial,p. 21,Síntesis crítica explícita,pendiente_verificacion
+VIU-014,figuras,Introducir figura antes de mostrarla,Tutoria Escritura,p. 22,Mención previa verificable,pendiente_verificacion
+VIU-015,figuras,Ilustración y epígrafe autoexplicativos,Tutoria Escritura,p. 21,Título nota y análisis suficientes,pendiente_verificacion
+VIU-016,apa,Referencias solo de fuentes utilizadas,Normas APA VIU,p. 4,Correspondencia bidireccional,pendiente_verificacion
+VIU-017,apa,Sangría francesa y orden alfabético,Normas APA VIU,pp. 5 y 12,Sí,pendiente_verificacion
+VIU-018,apa,Autor-fecha y coincidencia exacta entre cita y referencia,Normas APA VIU,pp. 12–13,Campos Zotero dinámicos,pendiente_verificacion
+VIU-019,apa,Cita directa con autor año y localizador,Normas APA VIU,pp. 13–14,Aplicar cuando exista cita textual,pendiente_verificacion
+VIU-020,tablas_figuras,Numeración arábiga por orden de mención,Normas APA VIU,p. 21,SEQ y REF funcionales,pendiente_verificacion
+VIU-021,tablas_figuras,Referencias por número no por posición o página,Normas APA VIU,p. 24,REF dinámicos,pendiente_verificacion
+VIU-022,originalidad,Trabajo personal original e inédito,Tutoria Inicial,p. 7,Síntesis propia con atribución,pendiente_verificacion
+VIU-023,similitud,Control Turnitin institucional,Tutoria Inicial,p. 33,Externo y pendiente si no hay acceso autorizado,pendiente_externo
+VIU-024,plantilla,Actualizar índices y usar saltos y estilos definidos,Plantilla VIU,instrucciones iniciales,Campos y estilos conservados,pendiente_verificacion
+

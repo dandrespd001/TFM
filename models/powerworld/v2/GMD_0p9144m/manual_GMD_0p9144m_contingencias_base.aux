@@ -1,0 +1,31 @@
+Contingency (Name,Skip,Category,Processed,Solved,RemedialActionInclude,ScreenAllow,
+   PostCTGAuxFile,LoadMWIslanded,GenMWIslanded,OccurredGlobalCount,
+   OccurredTransientCount,OccurredRemedialCount,ViolCustom,Violations,
+   BranchMaxPerc,MinVolt,MaxVolt,InterfaceMaxPerc,BusPairAngleMax,Memo)
+{
+"FallaLinea1_PuntaEvans_ElBight" "NO " "" "YES" "YES" "YES" "NO " "none" "" ""        0        0        0        0        0 "" "" "" "" "" ""
+"FallaLinea2_PuntaEvans_ElBight" "NO " "" "YES" "YES" "YES" "NO " "none" "" ""        0        0        0        0        0 "" "" "" "" "" ""
+"FallaLinea1_PuntaEvans_SchoolHouse" "NO " "" "YES" "YES" "YES" "NO " "none" "" ""        0        0        0        0        0 "" "" "" "" "" ""
+"FallaLinea1_ElBight_SchoolHouse" "NO " "" "YES" "YES" "YES" "NO " "none" "" ""        0        0        0        0        0 "" "" "" "" "" ""
+"FallaElevador1_PuntaEvans" "NO " "" "YES" "YES" "YES" "NO " "none" "" ""        0        0        0        0        0 "" "" "" "" "" ""
+"FallaElevador2_PuntaEvans" "NO " "" "YES" "YES" "YES" "NO " "none" "" ""        0        0        0        0        0 "" "" "" "" "" ""
+"FallaElevador3_PuntaEvans" "NO " "" "YES" "YES" "YES" "NO " "none" "" ""        0        0        0        0        0 "" "" "" "" "" ""
+"FallaTrafo1_ElBight" "NO " "" "YES" "YES" "YES" "NO " "none" "" ""        0        0        0        0        0 "" "" "" "" "" ""
+"FallaTrafo2_ElBight" "NO " "" "YES" "YES" "YES" "NO " "none" "" ""        0        0        0        0        0 "" "" "" "" "" ""
+"FallaTrafo1_SchoolHouse" "NO " "" "YES" "YES" "YES" "NO " "none"    13,06 ""        0        0        0        0        0 "" "" "" "" "" ""
+}
+
+ContingencyElement (Contingency,Object,Action,Criteria,CriteriaStatus,TimeDelay,Persistent,Comment)
+{
+"FallaLinea1_PuntaEvans_ElBight" "BRANCH 2 3 1" "OPEN" "" "CHECK"     0 "NO " ""
+"FallaLinea2_PuntaEvans_ElBight" "BRANCH 2 3 2" "OPEN" "" "CHECK"     0 "NO " ""
+"FallaLinea1_PuntaEvans_SchoolHouse" "BRANCH 2 4 1" "OPEN" "" "CHECK"     0 "NO " ""
+"FallaLinea1_ElBight_SchoolHouse" "BRANCH 3 4 1" "OPEN" "" "CHECK"     0 "NO " ""
+"FallaElevador1_PuntaEvans" "BRANCH 1 2 1" "OPEN" "" "CHECK"     0 "NO " ""
+"FallaElevador2_PuntaEvans" "BRANCH 1 2 2" "OPEN" "" "CHECK"     0 "NO " ""
+"FallaElevador3_PuntaEvans" "BRANCH 1 2 3" "OPEN" "" "CHECK"     0 "NO " ""
+"FallaTrafo1_ElBight" "BRANCH 3 5 1" "OPEN" "" "CHECK"     0 "NO " ""
+"FallaTrafo2_ElBight" "BRANCH 3 5 2" "OPEN" "" "CHECK"     0 "NO " ""
+"FallaTrafo1_SchoolHouse" "BRANCH 4 6 1" "OPEN" "" "CHECK"     0 "NO " ""
+}
+

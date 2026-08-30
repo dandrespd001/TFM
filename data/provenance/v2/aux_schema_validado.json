@@ -1,0 +1,94 @@
+{
+  "powerworld_version": "24 Evaluation",
+  "status": "partial_roundtrip",
+  "validated_at": "2026-08-29T10:37:46-05:00",
+  "object_fields": {
+    "Bus": [
+      "Number",
+      "Name",
+      "NomkV",
+      "Vpu",
+      "Vangle",
+      "Slack",
+      "Status"
+    ],
+    "Contingency": [
+      "Name",
+      "Skip"
+    ],
+    "ContingencyElement": [
+      "Contingency",
+      "Object",
+      "Action",
+      "Criteria",
+      "TimeDelay",
+      "CriteriaStatus",
+      "Persistent",
+      "Comment"
+    ]
+  },
+  "contingency_syntax": {
+    "source": "Simulacion/Contingen/n1_rama_v1.aux",
+    "object_template": "BRANCH {from_bus} {to_bus} {circuit}",
+    "action": "OPEN",
+    "criteria_status": "CHECK",
+    "records": 10,
+    "loaded_into_case_gmd_0p9144m": true,
+    "loaded_into_case_gmd_1p2192m": true,
+    "persisted_in_both_v2_cases": true
+  },
+  "official_references": [
+    "https://www.powerworld.com/WebHelp/Content/MainDocumentation_HTML/Auxiliary_Files.htm",
+    "https://www.powerworld.com/WebHelp/Content/Other_Documents/Auxiliary-File-Format.pdf"
+  ],
+  "observed_ui": {
+    "data_check_define_checks_rows": 0,
+    "empty_label": "None",
+    "attempted_filter_object": "Bus",
+    "saved": false,
+    "data_check_aux_status": "not_validated_manual_fallback_required",
+    "data_check_observed_error": "List index out of bounds (0)",
+    "transformer_4_6": {
+      "from_bus": 4,
+      "to_bus": 6,
+      "circuit": "1",
+      "nominal_from_kv": 34.5,
+      "nominal_to_kv": 13.2,
+      "r_pu": 0.031841,
+      "x_pu": 0.318412,
+      "limit_a_mva": 25.0,
+      "status": "Closed",
+      "roundtrip": false
+    },
+    "contingency_pilot_gmd_1p2192m": {
+      "records": 10,
+      "processed": 10,
+      "solved": 10,
+      "skipped": 0,
+      "actions_applied": 10,
+      "islanded_contingency": "FallaTrafo1_SchoolHouse",
+      "islanded_load_mw": 13.06,
+      "status_message": "Finished with no violations, custom monitor violations, unsolveable or aborted contingencies. Initial state restored.",
+      "interpretation_limit": "La ausencia de violaciones no constituye por sí sola una prueba de cumplimiento; se requiere Limit Monitoring o la comprobación tabular manual."
+    }
+  },
+  "roundtrip_evidence": {
+    "object": "Bus",
+    "file": "Simulacion/Contingen/schema_bus_v2.aux",
+    "exported": true,
+    "imported": true,
+    "post_import_bus1_name": "PE_132",
+    "post_import_bus1_nom_kv": 13.2,
+    "post_import_vpu": [1.0, 0.98924, 0.96769, 0.96559, 0.95977, 0.95511]
+  },
+  "notes": [
+    "La documentación oficial confirma que AUX admite secciones DATA y SCRIPT.",
+    "El objeto Bus ya completó exportación e importación real en PowerWorld 24.",
+    "La rama/transformador 4-6 se verificó visualmente, pero su segundo archivo AUX no se guardó; por eso el esquema completo aún no se declara validado.",
+    "La sintaxis real Contingency/ContingencyElement se cargó y persistió en ambos casos v2.",
+    "El piloto basal del caso GMD 1,2192 m procesó y resolvió 10/10 contingencias; FallaTrafo1_SchoolHouse registró 13,06 MW de carga aislada.",
+    "La automatización de filtros avanzados Data Check no quedó validada en Evaluation 24; la sección 7.2 de la guía establece el procedimiento manual alternativo.",
+    "La pantalla sin violaciones no se acepta como puerta si no está respaldada por Limit Monitoring o por tablas completas de buses, ramas y generadores.",
+    "No se guardó una regla parcial ni se declaró un round-trip inexistente."
+  ]
+}

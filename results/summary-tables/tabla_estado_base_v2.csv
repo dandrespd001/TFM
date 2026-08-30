@@ -1,0 +1,3 @@
+gmd_m,archivo_modelo,sha256,bus_slack,nombre_slack,bus1_nom_kv,estado,islas,barras_energizadas,mismatch_mva,v_min_pu,v_min_bus,v_max_pu,dg_mw,dg_mvar,data_check,clase_dato,fuente
+0.9144,Simulacion/Contingen/SA_AC_v2_GMD_0p9144m.pwb,D94F78845DD75FC9DB6FE2E945FEC4FB807ABEEE298F0922082F7A3FCFAFE63D,1,PE_132,13.2,SOLVED,1,6,0.010,0.95511,6,1.00000,34.24,7.32,NO_CONFIGURADO_EVIDENCIA_MANUAL,SIM/OBS,TFM/Entrega_final/reproducibilidad/v2/casos_v2_validacion.json
+1.2192,Simulacion/Contingen/SA_AC_v2_GMD_1p2192m.pwb,06595D18667B85EDA890C5898F168DE1A0CA39C052C66B0CA33C992D6859E7A0,1,PE_132,13.2,SOLVED,1,6,0.000,0.95489,6,1.00000,34.26,7.36,NO_CONFIGURADO_EVIDENCIA_MANUAL,SIM/OBS,TFM/Entrega_final/reproducibilidad/v2/casos_v2_validacion.json

@@ -1,0 +1,12 @@
+# Archivos locales y temporales
+~$*
+*.tmp
+*.bak
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Exportaciones de revisión que deben incorporarse deliberadamente
+turnitin-report-*
+review-working-copy-*

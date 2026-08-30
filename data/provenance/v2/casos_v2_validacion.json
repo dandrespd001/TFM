@@ -1,0 +1,117 @@
+{
+  "status": "validated",
+  "validated_at": "2026-08-29T10:37:46-05:00",
+  "powerworld_version": "24 Evaluation",
+  "validation_method": "inspección directa en Run Mode y tablas del Model Explorer",
+  "cases": [
+    {
+      "path": "Simulacion/Contingen/SA_AC_v2_GMD_0p9144m.pwb",
+      "sha256": "D94F78845DD75FC9DB6FE2E945FEC4FB807ABEEE298F0922082F7A3FCFAFE63D",
+      "length_bytes": 40245,
+      "gmd_m": 0.9144,
+      "parameters": {
+        "bus1_name": "PE_132",
+        "bus1_nom_kv": 13.2,
+        "generator_consumption_voltage_kv": 13.2,
+        "transformer_12_nom_from_kv": 13.2,
+        "transformer_12_nom_to_kv": 34.5,
+        "transformer_46_rate_a_mva": 25.0,
+        "transformer_count_rate_25": 6,
+        "line_count": 4,
+        "line_x_ohm_km": 0.42732,
+        "rsu_avr": false
+      },
+      "solution": {
+        "status": "solved",
+        "mismatch_mva": 0.01,
+        "island_count": 1,
+        "island_energized": true,
+        "island_bus_count": 6,
+        "slack_bus_number": 1,
+        "slack_bus_name": "PE_132",
+        "v_pu_by_bus": {
+          "1": 1.0,
+          "2": 0.98924,
+          "3": 0.96769,
+          "4": 0.96559,
+          "5": 0.95977,
+          "6": 0.95511
+        },
+        "dg_mw": 34.24,
+        "dg_mvar": 7.32
+      },
+      "contingencies": {
+        "loaded": 10,
+        "persisted": true,
+        "pilot_run": false,
+        "reason": "El conjunto validado se guardó en el caso; la corrida basal se ejecutó primero en el extremo GMD 1,2192 m."
+      },
+      "data_check": {
+        "status": "not_configured",
+        "active_rules": 0,
+        "critical_findings": null,
+        "reason": "La tabla Define Checks mostró None. No se guardó el filtro incompleto."
+      }
+    },
+    {
+      "path": "Simulacion/Contingen/SA_AC_v2_GMD_1p2192m.pwb",
+      "sha256": "06595D18667B85EDA890C5898F168DE1A0CA39C052C66B0CA33C992D6859E7A0",
+      "length_bytes": 39995,
+      "gmd_m": 1.2192,
+      "parameters": {
+        "bus1_name": "PE_132",
+        "bus1_nom_kv": 13.2,
+        "generator_consumption_voltage_kv": 13.2,
+        "transformer_12_nom_from_kv": 13.2,
+        "transformer_12_nom_to_kv": 34.5,
+        "transformer_46_rate_a_mva": 25.0,
+        "transformer_count_rate_25": 6,
+        "line_count": 4,
+        "line_x_ohm_km": 0.44901,
+        "rsu_avr": false
+      },
+      "solution": {
+        "status": "solved",
+        "mismatch_mva": 0.0,
+        "island_count": 1,
+        "island_energized": true,
+        "island_bus_count": 6,
+        "slack_bus_number": 1,
+        "slack_bus_name": "PE_132",
+        "v_pu_by_bus": {
+          "1": 1.0,
+          "2": 0.98919,
+          "3": 0.96750,
+          "4": 0.96537,
+          "5": 0.95958,
+          "6": 0.95489
+        },
+        "dg_mw": 34.26,
+        "dg_mvar": 7.36
+      },
+      "contingencies": {
+        "loaded": 10,
+        "persisted": true,
+        "pilot_run": true,
+        "processed": 10,
+        "solved": 10,
+        "skipped": 0,
+        "islanded_contingency": "FallaTrafo1_SchoolHouse",
+        "islanded_load_mw": 13.06,
+        "initial_state_restored": true
+      },
+      "data_check": {
+        "status": "manual_evidence_required",
+        "active_rules": 0,
+        "critical_findings": null,
+        "reason": "PowerWorld Evaluation 24 creó nombres SIM-* sin conservar de forma fiable las condiciones AUX. Las reglas incompletas se retiraron y la sección 7.2 de la guía define la comprobación manual por tablas."
+      }
+    }
+  ],
+  "limitations": [
+    "Los valores se transcribieron de las tablas visibles de PowerWorld; la precisión se limita a la mostrada por la interfaz.",
+    "La automatización avanzada de Data Check no está validada; G2 requiere completar las tablas de evidencia manual descritas en la guía.",
+    "Initialized no se utilizó como evidencia de solución.",
+    "La indicación de cero violaciones del piloto no se usa por sí sola como evidencia de cumplimiento; debe acompañarse de Limit Monitoring o de las tablas manuales completas."
+  ]
+}

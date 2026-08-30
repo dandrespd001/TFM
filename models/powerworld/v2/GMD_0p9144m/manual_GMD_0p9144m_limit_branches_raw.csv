@@ -1,0 +1,12 @@
+Branch
+BusNumFrom,BusNameFrom,BusNumTo,BusNameTo,Circuit,BranchDeviceType,Monitor,LimitSet,LimitFlowUsed,LimitUsed,Percent,ViolatedNormal,LimitUsedCTG,PercentCTG,ViolatedCTG,LimitFlowType,DerivedStatus
+1,PE_132,2,2,1,Transformer,YES,Default," 11,6777","25,00000"," 46,7108",NO,"25,00000"," 46,7108",NO,MVA,Closed
+1,PE_132,2,2,2,Transformer,YES,Default," 11,6777","25,00000"," 46,7108",NO,"25,00000"," 46,7108",NO,MVA,Closed
+1,PE_132,2,2,3,Transformer,YES,Default," 11,6777","25,00000"," 46,7108",NO,"25,00000"," 46,7108",NO,MVA,Closed
+2,2,3,3,1,Line,YES,Default," 12,1238","21,81100"," 55,5855",NO,"21,81100"," 55,5855",NO,MVA,Closed
+2,2,3,3,2,Line,YES,Default," 12,1238","21,81100"," 55,5855",NO,"21,81100"," 55,5855",NO,MVA,Closed
+2,2,4,4,1,Line,YES,Default," 10,4080","21,81100"," 47,7189",NO,"21,81100"," 47,7189",NO,MVA,Closed
+3,3,4,4,1,Line,YES,Default,"  3,1462","21,81100"," 14,4247",NO,"21,81100"," 14,4247",NO,MVA,Closed
+3,3,5,5,1,Transformer,YES,Default," 10,2869","25,00000"," 41,1477",NO,"25,00000"," 41,1477",NO,MVA,Closed
+3,3,5,5,2,Transformer,YES,Default," 10,2869","25,00000"," 41,1477",NO,"25,00000"," 41,1477",NO,MVA,Closed
+4,4,6,6,1,Transformer,YES,Default," 13,2976","25,00000"," 53,1905",NO,"25,00000"," 53,1905",NO,MVA,Closed

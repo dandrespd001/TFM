@@ -1,0 +1,56 @@
+{
+  "status": "planned",
+  "runs": 4400,
+  "blocks": 40,
+  "max_runs_per_block": 110,
+  "models": [
+    "GMD_0p9144m",
+    "GMD_1p2192m"
+  ],
+  "gmd_m": [
+    0.9144,
+    1.2192
+  ],
+  "bess_buses": [
+    "B5",
+    "B6"
+  ],
+  "bess_mw": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "scenarios": [
+    "BASE",
+    "B1_FV15",
+    "B1_FV30",
+    "B1_FV50",
+    "B5_FV15",
+    "B5_FV30",
+    "B5_FV50",
+    "B6_FV15",
+    "B6_FV30",
+    "B6_FV50"
+  ],
+  "contingencies": [
+    "FallaLinea1_PuntaEvans_ElBight",
+    "FallaLinea2_PuntaEvans_ElBight",
+    "FallaLinea1_PuntaEvans_SchoolHouse",
+    "FallaLinea1_ElBight_SchoolHouse",
+    "FallaElevador1_PuntaEvans",
+    "FallaElevador2_PuntaEvans",
+    "FallaElevador3_PuntaEvans",
+    "FallaTrafo1_ElBight",
+    "FallaTrafo2_ElBight",
+    "FallaTrafo1_SchoolHouse"
+  ],
+  "note": "Las filas están planificadas; no se marcan completed hasta ejecutar PowerWorld."
+}

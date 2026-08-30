@@ -1,0 +1,9 @@
+barra_bess,potencia_bess_mw,duracion_soporte_h,energia_util_mwh,eta_descarga_hip,ventana_soc_hip,energia_nominal_hip_mwh,interpretacion,procedencia
+5,10,0.5,5,0.93,0.8,6.720430108,Sensibilidad a la potencia límite evaluada; no cumplió tensión N-1.,DER/HIP a partir de P SIM
+5,10,1,10,0.93,0.8,13.440860215,Sensibilidad a la potencia límite evaluada; no cumplió tensión N-1.,DER/HIP a partir de P SIM
+5,10,2,20,0.93,0.8,26.88172043,Sensibilidad a la potencia límite evaluada; no cumplió tensión N-1.,DER/HIP a partir de P SIM
+5,10,4,40,0.93,0.8,53.76344086,Sensibilidad a la potencia límite evaluada; no cumplió tensión N-1.,DER/HIP a partir de P SIM
+6,5.25,0.5,2.625,0.93,0.8,3.528225806,Sensibilidad para la potencia evaluada conforme; no demuestra una potencia mínima.,DER/HIP a partir de P SIM
+6,5.25,1,5.25,0.93,0.8,7.056451613,Sensibilidad para la potencia evaluada conforme; no demuestra una potencia mínima.,DER/HIP a partir de P SIM
+6,5.25,2,10.5,0.93,0.8,14.112903226,Sensibilidad para la potencia evaluada conforme; no demuestra una potencia mínima.,DER/HIP a partir de P SIM
+6,5.25,4,21,0.93,0.8,28.225806452,Sensibilidad para la potencia evaluada conforme; no demuestra una potencia mínima.,DER/HIP a partir de P SIM

@@ -1,0 +1,9 @@
+bess_bus,p_bess_mw,duracion_h,eta,ventana_soc,e_util_mwh,e_nom_mwh,clasificacion
+5,10,0.5,0.93,0.8,5,6.720430108,DER/HIP sobre potencia límite SIM no conforme
+5,10,1,0.93,0.8,10,13.440860215,DER/HIP sobre potencia límite SIM no conforme
+5,10,2,0.93,0.8,20,26.88172043,DER/HIP sobre potencia límite SIM no conforme
+5,10,4,0.93,0.8,40,53.76344086,DER/HIP sobre potencia límite SIM no conforme
+6,5.25,0.5,0.93,0.8,2.625,3.528225806,DER/HIP sobre potencia SIM conforme; no es potencia mínima
+6,5.25,1,0.93,0.8,5.25,7.056451613,DER/HIP sobre potencia SIM conforme; no es potencia mínima
+6,5.25,2,0.93,0.8,10.5,14.112903226,DER/HIP sobre potencia SIM conforme; no es potencia mínima
+6,5.25,4,0.93,0.8,21,28.225806452,DER/HIP sobre potencia SIM conforme; no es potencia mínima

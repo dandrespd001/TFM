@@ -1,0 +1,83 @@
+claim_id,seccion,valor,unidad,valor_mostrado,fuente,campo_origen,transformacion,redondeo,estado
+FV-0P9144_B1_FV15-P,Resultados FV,5.138298,MW,"5,138 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,15% de 34.255320 MW,3 decimales,APROBADO
+FV-0P9144_B1_FV15-VMIN,Resultados FV,0.937519,p.u.,"0,937519 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-0P9144_B1_FV15-LOAD,Resultados FV,91.367287,%,"91,37 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-0P9144_B1_FV30-P,Resultados FV,10.276596,MW,"10,277 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,30% de 34.255320 MW,3 decimales,APROBADO
+FV-0P9144_B1_FV30-VMIN,Resultados FV,0.937519,p.u.,"0,937519 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-0P9144_B1_FV30-LOAD,Resultados FV,91.367287,%,"91,37 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-0P9144_B1_FV50-P,Resultados FV,17.127660,MW,"17,128 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,50% de 34.255320 MW,3 decimales,APROBADO
+FV-0P9144_B1_FV50-VMIN,Resultados FV,0.937519,p.u.,"0,937519 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-0P9144_B1_FV50-LOAD,Resultados FV,91.367287,%,"91,37 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-0P9144_B5_FV15-P,Resultados FV,5.138298,MW,"5,138 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,15% de 34.255320 MW,3 decimales,APROBADO
+FV-0P9144_B5_FV15-VMIN,Resultados FV,0.943787,p.u.,"0,943787 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-0P9144_B5_FV15-LOAD,Resultados FV,75.515104,%,"75,52 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-0P9144_B5_FV30-P,Resultados FV,10.276596,MW,"10,277 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,30% de 34.255320 MW,3 decimales,APROBADO
+FV-0P9144_B5_FV30-VMIN,Resultados FV,0.949977,p.u.,"0,949977 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-0P9144_B5_FV30-LOAD,Resultados FV,62.689771,%,"62,69 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-0P9144_B5_FV50-P,Resultados FV,17.127660,MW,"17,128 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,50% de 34.255320 MW,3 decimales,APROBADO
+FV-0P9144_B5_FV50-VMIN,Resultados FV,0.950831,p.u.,"0,950831 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-0P9144_B5_FV50-LOAD,Resultados FV,62.962228,%,"62,96 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-0P9144_B6_FV15-P,Resultados FV,5.138298,MW,"5,138 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,15% de 34.255320 MW,3 decimales,APROBADO
+FV-0P9144_B6_FV15-VMIN,Resultados FV,0.950170,p.u.,"0,950170 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-0P9144_B6_FV15-LOAD,Resultados FV,83.085824,%,"83,09 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-0P9144_B6_FV30-P,Resultados FV,10.276596,MW,"10,277 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,30% de 34.255320 MW,3 decimales,APROBADO
+FV-0P9144_B6_FV30-VMIN,Resultados FV,0.957079,p.u.,"0,957079 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-0P9144_B6_FV30-LOAD,Resultados FV,83.072648,%,"83,07 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-0P9144_B6_FV50-P,Resultados FV,17.127660,MW,"17,128 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,50% de 34.255320 MW,3 decimales,APROBADO
+FV-0P9144_B6_FV50-VMIN,Resultados FV,0.961519,p.u.,"0,961519 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-0P9144_B6_FV50-LOAD,Resultados FV,83.057776,%,"83,06 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-1P2192_B1_FV15-P,Resultados FV,5.138298,MW,"5,138 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,15% de 34.255320 MW,3 decimales,APROBADO
+FV-1P2192_B1_FV15-VMIN,Resultados FV,0.937064,p.u.,"0,937064 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-1P2192_B1_FV15-LOAD,Resultados FV,91.400468,%,"91,40 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-1P2192_B1_FV30-P,Resultados FV,10.276596,MW,"10,277 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,30% de 34.255320 MW,3 decimales,APROBADO
+FV-1P2192_B1_FV30-VMIN,Resultados FV,NR,p.u.,NR,TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,campo no recuperado; no se imputa,NR,NR
+FV-1P2192_B1_FV30-LOAD,Resultados FV,NR,%,NR,TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,campo no recuperado; no se imputa,NR,NR
+FV-1P2192_B1_FV50-P,Resultados FV,17.127660,MW,"17,128 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,50% de 34.255320 MW,3 decimales,APROBADO
+FV-1P2192_B1_FV50-VMIN,Resultados FV,0.937064,p.u.,"0,937064 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-1P2192_B1_FV50-LOAD,Resultados FV,91.400468,%,"91,40 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-1P2192_B5_FV15-P,Resultados FV,5.138298,MW,"5,138 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,15% de 34.255320 MW,3 decimales,APROBADO
+FV-1P2192_B5_FV15-VMIN,Resultados FV,0.943384,p.u.,"0,943384 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-1P2192_B5_FV15-LOAD,Resultados FV,75.736076,%,"75,74 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-1P2192_B5_FV30-P,Resultados FV,10.276596,MW,"10,277 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,30% de 34.255320 MW,3 decimales,APROBADO
+FV-1P2192_B5_FV30-VMIN,Resultados FV,0.949637,p.u.,"0,949637 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-1P2192_B5_FV30-LOAD,Resultados FV,62.706167,%,"62,71 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-1P2192_B5_FV50-P,Resultados FV,17.127660,MW,"17,128 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,50% de 34.255320 MW,3 decimales,APROBADO
+FV-1P2192_B5_FV50-VMIN,Resultados FV,0.950506,p.u.,"0,950506 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-1P2192_B5_FV50-LOAD,Resultados FV,62.982190,%,"62,98 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-1P2192_B6_FV15-P,Resultados FV,5.138298,MW,"5,138 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,15% de 34.255320 MW,3 decimales,APROBADO
+FV-1P2192_B6_FV15-VMIN,Resultados FV,0.949825,p.u.,"0,949825 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-1P2192_B6_FV15-LOAD,Resultados FV,83.086632,%,"83,09 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-1P2192_B6_FV30-P,Resultados FV,10.276596,MW,"10,277 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,30% de 34.255320 MW,3 decimales,APROBADO
+FV-1P2192_B6_FV30-VMIN,Resultados FV,0.956783,p.u.,"0,956783 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-1P2192_B6_FV30-LOAD,Resultados FV,83.073372,%,"83,07 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+FV-1P2192_B6_FV50-P,Resultados FV,17.127660,MW,"17,128 MW",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,expected_fv_mw,50% de 34.255320 MW,3 decimales,APROBADO
+FV-1P2192_B6_FV50-VMIN,Resultados FV,0.961322,p.u.,"0,961322 p.u.",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_v_min_energized_pu,mínimo entre barras energizadas y contingencias,6 decimales,APROBADO
+FV-1P2192_B6_FV50-LOAD,Resultados FV,83.058448,%,"83,06 %",TFM/Entrega_final/sdd/revision_fv_bess/audit_fv_results.json,metrics.ctg_max_loading_pct,máximo entre ramas monitorizadas y contingencias,2 decimales,APROBADO
+BASE-0P9144-VMIN,Estado base,0.95511,p.u.,"0,95511 p.u.",TFM/Entrega_final/reproducibilidad/v2/casos_v2_validacion.json,solution.v_pu_by_bus,mínimo de seis barras,5 decimales,APROBADO
+BASE-0P9144-MIS,Estado base,0.010,MVA,"0,010 MVA",TFM/Entrega_final/reproducibilidad/v2/casos_v2_validacion.json,solution.mismatch_mva,transcripción auditada de interfaz,3 decimales,APROBADO
+BASE-1P2192-VMIN,Estado base,0.95489,p.u.,"0,95489 p.u.",TFM/Entrega_final/reproducibilidad/v2/casos_v2_validacion.json,solution.v_pu_by_bus,mínimo de seis barras,5 decimales,APROBADO
+BASE-1P2192-MIS,Estado base,0.000,MVA,"0,000 MVA",TFM/Entrega_final/reproducibilidad/v2/casos_v2_validacion.json,solution.mismatch_mva,transcripción auditada de interfaz,3 decimales,APROBADO
+BESS-01-P,Resultados BESS,10,MW,"10,00 MW",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,bess_mw,entrada simulada,2 decimales,APROBADO
+BESS-01-VMIN,Resultados BESS,0.949679,p.u.,"0,949679 p.u.",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,v_min_ctg_pu,mínimo entre barras energizadas y diez contingencias,6 decimales,APROBADO
+BESS-01-MARGEN,Discusión BESS,-0.000321,p.u.,"-0,000321 p.u.",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,margin_to_0p95_pu,v_min_ctg_pu - 0.95,6 decimales,APROBADO
+BESS-01-LOAD,Resultados BESS,62.695502,%,"62,70 %",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,max_loading_ctg_pct,máximo entre ramas y diez contingencias,2 decimales,APROBADO
+BESS-02-P,Resultados BESS,5.25,MW,"5,25 MW",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,bess_mw,entrada simulada,2 decimales,APROBADO
+BESS-02-VMIN,Resultados BESS,0.950418,p.u.,"0,950418 p.u.",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,v_min_ctg_pu,mínimo entre barras energizadas y diez contingencias,6 decimales,APROBADO
+BESS-02-MARGEN,Discusión BESS,0.000418,p.u.,"0,000418 p.u.",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,margin_to_0p95_pu,v_min_ctg_pu - 0.95,6 decimales,APROBADO
+BESS-02-LOAD,Resultados BESS,83.085516,%,"83,09 %",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,max_loading_ctg_pct,máximo entre ramas y diez contingencias,2 decimales,APROBADO
+BESS-03-P,Resultados BESS,10,MW,"10,00 MW",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,bess_mw,entrada simulada,2 decimales,APROBADO
+BESS-03-VMIN,Resultados BESS,0.949337,p.u.,"0,949337 p.u.",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,v_min_ctg_pu,mínimo entre barras energizadas y diez contingencias,6 decimales,APROBADO
+BESS-03-MARGEN,Discusión BESS,-0.000663,p.u.,"-0,000663 p.u.",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,margin_to_0p95_pu,v_min_ctg_pu - 0.95,6 decimales,APROBADO
+BESS-03-LOAD,Resultados BESS,62.71193,%,"62,71 %",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,max_loading_ctg_pct,máximo entre ramas y diez contingencias,2 decimales,APROBADO
+BESS-04-P,Resultados BESS,5.25,MW,"5,25 MW",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,bess_mw,entrada simulada,2 decimales,APROBADO
+BESS-04-VMIN,Resultados BESS,0.950074,p.u.,"0,950074 p.u.",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,v_min_ctg_pu,mínimo entre barras energizadas y diez contingencias,6 decimales,APROBADO
+BESS-04-MARGEN,Discusión BESS,0.000074,p.u.,"0,000074 p.u.",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,margin_to_0p95_pu,v_min_ctg_pu - 0.95,6 decimales,APROBADO
+BESS-04-LOAD,Resultados BESS,83.08632,%,"83,09 %",TFM/Entrega_final/reproducibilidad/v2/bess_final/matriz_resultados_bess_v23.csv,max_loading_ctg_pct,máximo entre ramas y diez contingencias,2 decimales,APROBADO
+ENERGIA-01,Sensibilidad energética,6.720430108,MWh,"6,720430 MWh",TFM/Entrega_final/reproducibilidad/v2/bess_final/energia_bess.csv,e_nom_mwh,P*t/(0.93*0.80),6 decimales,APROBADO
+ENERGIA-02,Sensibilidad energética,13.440860215,MWh,"13,440860 MWh",TFM/Entrega_final/reproducibilidad/v2/bess_final/energia_bess.csv,e_nom_mwh,P*t/(0.93*0.80),6 decimales,APROBADO
+ENERGIA-03,Sensibilidad energética,26.88172043,MWh,"26,881720 MWh",TFM/Entrega_final/reproducibilidad/v2/bess_final/energia_bess.csv,e_nom_mwh,P*t/(0.93*0.80),6 decimales,APROBADO
+ENERGIA-04,Sensibilidad energética,53.76344086,MWh,"53,763441 MWh",TFM/Entrega_final/reproducibilidad/v2/bess_final/energia_bess.csv,e_nom_mwh,P*t/(0.93*0.80),6 decimales,APROBADO
+ENERGIA-05,Sensibilidad energética,3.528225806,MWh,"3,528226 MWh",TFM/Entrega_final/reproducibilidad/v2/bess_final/energia_bess.csv,e_nom_mwh,P*t/(0.93*0.80),6 decimales,APROBADO
+ENERGIA-06,Sensibilidad energética,7.056451613,MWh,"7,056452 MWh",TFM/Entrega_final/reproducibilidad/v2/bess_final/energia_bess.csv,e_nom_mwh,P*t/(0.93*0.80),6 decimales,APROBADO
+ENERGIA-07,Sensibilidad energética,14.112903226,MWh,"14,112903 MWh",TFM/Entrega_final/reproducibilidad/v2/bess_final/energia_bess.csv,e_nom_mwh,P*t/(0.93*0.80),6 decimales,APROBADO
+ENERGIA-08,Sensibilidad energética,28.225806452,MWh,"28,225806 MWh",TFM/Entrega_final/reproducibilidad/v2/bess_final/energia_bess.csv,e_nom_mwh,P*t/(0.93*0.80),6 decimales,APROBADO

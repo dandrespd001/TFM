@@ -1,0 +1,153 @@
+{
+  "schema": "tfm-san-andres-final-v4-manifest-1.0",
+  "generated_at": "2026-08-30T05:33:30-05:00",
+  "status": "LISTO_PARA_REVISION_TUTOR_VIU",
+  "files": [
+    {
+      "path": "TFM/Entrega_final/TFM_San_Andres_APA_VIU_Diomar_Andres_Pacheco_D_FINAL_V4.docx",
+      "bytes": 896817,
+      "sha256": "11C7843D51824FDF5084CF2B432B028836C61BE95D1EC045D1E2D507A13EF43E"
+    },
+    {
+      "path": "TFM/Entrega_final/TFM_San_Andres_APA_VIU_Diomar_Andres_Pacheco_D_FINAL_V4.pdf",
+      "bytes": 1134348,
+      "sha256": "5978E1BD8BEB3175B35EB11D025DAE4E5A618A7ECD41F1ACE335F4A1D2ABD4EF"
+    },
+    {
+      "path": "TFM/Entrega_final/Informe_auditoria_TFM_San_Andres_v4.md",
+      "bytes": 11998,
+      "sha256": "9CE500622ECC46423D52515FB1570275BA892D0DEDD108504278B41FF9EE6DAB"
+    },
+    {
+      "path": "TFM/Entrega_final/sdd/GATES_V4.md",
+      "bytes": 7086,
+      "sha256": "65EC05155B37EB5CF1A972B0F631DE8E94E3DF970E70257B29873FDAAEB24191"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/acta_revision_visual_v4.csv",
+      "bytes": 13475,
+      "sha256": "8A4D607B8224C4D650380B3E73261F005A825C42D7FFAE76345F340210288C18"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/control_atribucion_local_v4.json",
+      "bytes": 404,
+      "sha256": "1523F40AE21C69292AFC21ECB813FCD58A9C02612FC8FE5FD08B56930A9A92D6"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/controles_automaticos_v4.json",
+      "bytes": 1107,
+      "sha256": "6910B9239D7478DD2F47C4DD2225773C1257125031F7A73C50236761477FD30E"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/fuentes_nuevas_v4.bib",
+      "bytes": 5811,
+      "sha256": "2B7BE0045663AECB4398560101BDD7274D6C1A39D59415EF7B49E0CFBC567F50"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/hashes_finales_v4.json",
+      "bytes": 595,
+      "sha256": "EE2EB883EAECABAFAEB85F28E3B576765822AEB8B080CB7D51EA2D487DAD7AD6"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/inventario_bibliografia_v4.csv",
+      "bytes": 8716,
+      "sha256": "9058EC1F0BEFA9F683E1FEB0CB05EF1621FCFEC458880D08470F7D88449AF629"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/inventario_citas_v4.csv",
+      "bytes": 3676,
+      "sha256": "8B84E0CE34106B14B466E78D61CFDFD7B1648711048AE59FA0FAA5CD6E964D12"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/matriz_afirmaciones_finales.csv",
+      "bytes": 33029,
+      "sha256": "AA7B89F29F362EACFE58F96149E652C66A62DF88EEC609F6F75A9D2BFD241ED8"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/matriz_afirmaciones_finales_v4.csv",
+      "bytes": 33029,
+      "sha256": "AA7B89F29F362EACFE58F96149E652C66A62DF88EEC609F6F75A9D2BFD241ED8"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/matriz_coherencia_v4.csv",
+      "bytes": 3363,
+      "sha256": "BA1015440BC230B5E045A083D4CF17C0FC8F23E6FCDA364283BEB61AC8D9809F"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/matriz_requisitos_viu_v4.csv",
+      "bytes": 3104,
+      "sha256": "677A691AB41CACFD11697C5EB7A099D1446A5FA2F83B5AC4ABD86AB6198873B0"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/protected_hashes_v4.json",
+      "bytes": 1425,
+      "sha256": "B1E8BA8E420C73A78E72789E47119B33313AFAD4955AF68D1898E485EAACC128"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/registro_cambios_v3_v4.csv",
+      "bytes": 1873,
+      "sha256": "916A63A01ACD3154B5A33F9ED7A58BC5D3D25374378C4EFECBAB21ACD6BEF397"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/registro_tablas_figuras_documento_v4.csv",
+      "bytes": 1417,
+      "sha256": "CAE37E05B4AB8E73981EB1546D66B9576E14C9286C805CEE46E216656B8CD98B"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/turnitin_status_v4.json",
+      "bytes": 376,
+      "sha256": "55E4FFF17B5286DE5FE51713F6255F892093514A51A9A061571C8E6F59FDF305"
+    },
+    {
+      "path": "TFM/Entrega_final/reproducibilidad/v4/zotero_items_csl_v4.json",
+      "bytes": 30392,
+      "sha256": "D0FFE44255DE1F6AD6D11A88A64C87B0C54EE3C744E90ECC7DF74AD98889C2CA"
+    }
+  ],
+  "metrics": {
+    "schema": "tfm-san-andres-v4-automatic-controls-1.0",
+    "generated_at": "2026-08-30T05:33:27-05:00",
+    "status": "AUTOMATIC_CONTROLS_OK",
+    "docx": {
+      "word_count_xml": 22083,
+      "sections": 2,
+      "ooxml_tables": 37,
+      "omml_equations": 19,
+      "body_images_with_alt_text": 7,
+      "body_images_total": 7,
+      "citation_fields": 53,
+      "unique_zotero_keys": 42,
+      "bibliography_entries": 42,
+      "bibliography_fields": 1,
+      "toc_and_lists": 3,
+      "comments_part": false,
+      "tracked_changes": 0,
+      "hidden_text_outside_indexes": 0,
+      "summary_words": 287,
+      "abstract_words": 290,
+      "approved_specific_objectives_preserved": true
+    },
+    "pdf": {
+      "pages_total": 85,
+      "annex_start_page": 84,
+      "pages_before_annexes": 83,
+      "annex_pages": 2,
+      "annex_percentage": 2.3529,
+      "minimum_extracted_characters_per_page": 100,
+      "visually_reviewed_pages": 85
+    },
+    "expected": {
+      "scientific_figures": 6,
+      "powerworld_figures": 4,
+      "scientific_tables": 17,
+      "claim_matrix_rows": 166,
+      "bibliography_entries": 42
+    }
+  },
+  "external_pending": [
+    "DNI de portada",
+    "Turnitin institucional",
+    "aprobación del tutor",
+    "formularios de entrega"
+  ]
+}

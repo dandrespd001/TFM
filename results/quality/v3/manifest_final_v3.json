@@ -1,0 +1,62 @@
+{
+  "schema": "tfm-san-andres-final-v3-manifest-1.0",
+  "generated_at": "2026-08-30T03:10:51-05:00",
+  "status": "LISTO_PARA_REVISION_VIU",
+  "files": {
+    "docx": {
+      "path": "TFM/Entrega_final/TFM_San_Andres_APA_VIU_Diomar_Andres_Pacheco_D_FINAL_V3.docx",
+      "bytes": 896781,
+      "sha256": "0A3C30D07306897BDA86D708D252A9CBBC1BC8895663248834A193B940B8AB95"
+    },
+    "pdf": {
+      "path": "TFM/Entrega_final/TFM_San_Andres_APA_VIU_Diomar_Andres_Pacheco_D_FINAL_V3.pdf",
+      "bytes": 1148562,
+      "sha256": "96884EA9D99C781D623A6090937E73432A6A7AD78B6AEE5C3F6492BB60812230"
+    },
+    "audit_report": {
+      "path": "TFM/Entrega_final/Informe_auditoria_TFM_San_Andres_v3.md",
+      "bytes": 11564,
+      "sha256": "F56EB8775AE18EDD01C1276BFDD37804104697F0F731A5A0D9308712CAFDFBB9"
+    },
+    "gate_ledger": {
+      "path": "TFM/Entrega_final/sdd/GATES_V3.md",
+      "bytes": 7046,
+      "sha256": "8C67679C4C7F0E84466B141884586A6C5091A8435A08AC4DA5D63E7E3BDBC102"
+    }
+  },
+  "immutability": {
+    "v2_sha256": "BEE726BF2481D6FA47189705F2271EF4CD021522B33B091177E16203FDF0509C",
+    "viu_template_sha256": "6C38C3777B39626A9DF6E4D846D12B12531460C41438A6FFD60C2BF7A8C9B8A5"
+  },
+  "metrics": {
+    "pages_total": 84,
+    "pages_before_annexes": 82,
+    "annex_start_page": 83,
+    "v2_word_count": 16703,
+    "v3_word_count": 22084,
+    "word_increase": 5381,
+    "native_omml_equations": 19,
+    "scientific_figures": 6,
+    "new_powerworld_figures": 4,
+    "scientific_tables": 17,
+    "ooxml_tables_total": 37,
+    "zotero_citation_fields": 53,
+    "zotero_unique_keys": 42,
+    "bibliography_entries": 42,
+    "claim_matrix_rows": 166,
+    "visually_reviewed_pdf_pages": 84,
+    "acceptance_gates_passed": 11,
+    "acceptance_gates_total": 11
+  },
+  "zotero": {
+    "style": "APA 7",
+    "locale": "es-ES",
+    "refresh_status": "ZOTERO_REFRESH_OK",
+    "automatic_citation_updates": "retained"
+  },
+  "author_actions_before_deposit": [
+    "Completar o confirmar el DNI en la portada si la VIU lo exige",
+    "Ejecutar el control institucional de similitud o Turnitin",
+    "Completar los formularios y el depósito institucional"
+  ]
+}

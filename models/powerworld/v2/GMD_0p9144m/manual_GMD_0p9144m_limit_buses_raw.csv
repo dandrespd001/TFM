@@ -1,0 +1,8 @@
+Bus
+Number,Name,AreaName,Monitor,LimitSet,Vpu,kV,LimitLowUsed,LimitHighUsed,LimitLowUsedCTG,LimitHighUsedCTG,UseSpecificLimits
+1,PE_132,1,YES,Default," 1,00000","  13,200","    0,95","    1,05","    0,95","    1,05",NO
+2,2,1,YES,Default," 0,98922","  34,128","    0,95","    1,05","    0,95","    1,05",NO
+3,3,1,YES,Default," 0,96765","  33,384","    0,95","    1,05","    0,95","    1,05",NO
+4,4,1,YES,Default," 0,96555","  33,312","    0,95","    1,05","    0,95","    1,05",NO
+5,5,1,YES,Default," 0,95973","  12,668","    0,95","    1,05","    0,95","    1,05",NO
+6,6,1,YES,Default," 0,95507","  12,607","    0,95","    1,05","    0,95","    1,05",NO

@@ -1,0 +1,7 @@
+{
+  "status": "PENDIENTE_EXTERNO",
+  "report_available": false,
+  "reason": "No se dispone de acceso institucional autorizado a Turnitin en este entorno.",
+  "claim": "No se afirma ningún porcentaje de similitud ni de detección de IA.",
+  "next_action": "El autor debe ejecutar el control institucional y revisar coincidencia por coincidencia antes del depósito."
+}

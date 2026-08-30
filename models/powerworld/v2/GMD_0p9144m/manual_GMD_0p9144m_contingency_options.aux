@@ -1,0 +1,215 @@
+//--------------------------------------------------------------------------------
+// THE FOLLOWING LIMIT MONITORING SETTINGS ARE BEING SAVED BY THE CONTINGENCY TOOL.
+//--------------------------------------------------------------------------------
+Limit_Monitoring_Options (LMS_IgnoreRadial)
+{
+"NO "
+}
+
+LimitSet (Number,Name,LowVolt,HighVolt,BranchPercent,InterfacePercent,NomogramPercent,
+   BranchRateSet,BranchRateSetCTG,InterfaceRateSet,InterfaceRateSetCTG,Disabled,
+   AmpMVA,Selected,NeverReport,AlwaysReport,VoltChangePercent,NeverBranchInc,
+   AlwaysBranchInc,NeverLowVoltDec,AlwaysLowVoltDec,NeverHighVoltInc,
+   AlwaysHighVoltInc,NeverInterfaceInc,AlwaysInterfaceInc,MonitorEnd,
+   LowVoltCutoff,UseLimitCost,LowVoltRateSet,HighVoltRateSet,LowVoltRateSetCTG,
+   HighVoltRateSetCTG,LowVoltCTG,HighVoltCTG,MonDiscBus,UseSetCTGMon,
+   DataMaintainer,DataMaintainerAssign,ScreenBranchPercent,
+   ScreenInterfacePercent,ScreenBusPairPercent,ScreenTolLowVolt,
+   ScreenTolHighVolt,ScreenTolChangeVolt,BusPairPercent,BusPairRateSet,
+   BusPairRateSetCTG,ScreenLowVoltMult)
+{
+         1 "Default"      0,950      1,050    100,000    100,000    100,000 "A" "A" "A" "A" "NO " "MVA" "NO " "NO " "NO " "NO "      0,000    999,000      0,000      2,000      0,000      2,000      0,000    999,000 "Higher"      0,000 "No" "A" "A" "A" "A"      0,950      1,050 "NO " "NO " "" ""     90,000     90,000     90,000      0,010      0,010      0,010    100,000 "A" "A"      1,000
+}
+
+Area (ObjectID,MonitorLimits,MonitorMinkV,MonitorMaxkV)
+{
+"Area '1'" "YES"     0,0000  9999,0000
+}
+
+Zone (ObjectID,MonitorLimits,MonitorMinkV,MonitorMaxkV)
+{
+"Zone '1'" "YES"     0,0000  9999,0000
+}
+
+SCRIPT
+{
+SetData(Bus, [Monitor,LimitSet], ["YES", "Default"], All); //  set all buses to monitored as part of first limit group
+}
+SCRIPT
+{
+SetData(Branch, [Monitor,LimitSet], ["YES", "Default"], All); //  set all branches to monitored as part of first limit group
+}
+SCRIPT
+{
+SetData(Interface, [Monitor,LimitSet], ["YES", "Default"], All); //  set all interfaces to monitored as part of first limit group
+}
+
+//--------------------------------------------------------------------------------
+// THE FOLLOWING SECTION CONTAINS OPTIONS FOR THE CONTINGENCY ANALYSIS.
+//--------------------------------------------------------------------------------
+CTG_Options_Value (Option,Value)
+{
+"AlwaysReport"                     "NO"
+"AlwaysBranchInc"                  "999"
+"AlwaysHighVoltInc"                "2"
+"AlwaysInterfaceInc"               "999"
+"AlwaysLowVoltDec"                 "2"
+"NeverReport"                      "NO"
+"NeverBranchInc"                   "0"
+"NeverHighVoltInc"                 "0"
+"NeverInterfaceInc"                "0"
+"NeverLowVoltDec"                  "0"
+"VoltChangePercent"                "NO"
+"MonDiscBus"                       "NO"
+"DisableGenDropOverlap"            "NO"
+"AGCToleranceMVA"                  "5"
+"AGCTolerance"                     "0,05"
+"MakeUpPower"                      "Same as Power Flow"
+"TSModelMaxDelay"                  "3600"
+"TSModelsTrip"                     ""
+"TSModelsMonitor"                  ""
+"IgnoreRASIfTrueInRef"             "NO"
+"DynAssignSlack"                   "Default"
+"MVAConvergenceTol"                "Default"
+"PUConvergenceTol"                 "Default"
+"DisableOptMult"                   "Default"
+"MaxItr"                           "Default"
+"MinVoltILoad"                     "Default"
+"MinVoltSLoad"                     "Default"
+"EnforceGenMWLimits"               "Default"
+"LTCTapBalance"                    "Default"
+"ChkDCTaps"                        "Default"
+"ChkPhaseShifters"                 "Default"
+"ChkSVCs"                          "Default"
+"ChkShunts"                        "Default"
+"ChkTaps"                          "Default"
+"DisableGenMVRCheck"               "Default"
+"ChkVarBackOffImmediately"         "Default"
+"ChkVarImmediately"                "Default"
+"MaxItrVoltLoop"                   "Default"
+"MinLTCSense"                      "Default"
+"ModelPSDiscrete"                  "Default"
+"PreventOscillations"              "Default"
+"ShuntInner"                       "Default"
+}
+CTG_Options (HardDriveFilename,HardDriveUseColHead,HardDriveSave,InjSensFilterNameGen,
+   InjSensFilterNameLoad,InjSensMaxEffect,InjSensMaxSens,BCViolReport,
+   BCViolBranchInc,BCViolHighVoltInc,BCViolInterfaceInc,BCViolLowVoltDec,
+   IslandViolationMinBus,IslandViolationMinLoadMW,IslandViolations,MonPrimaryBus,
+   MonVoltSensThres,MonVoltSensFilter,MonVoltSens,CTG_AlwaysSaveResults,
+   WhatActuallyOccuredContingencyDescription,CTGSaveInPWB,
+   SaveUnlinkedElementObject,CTGStoreLODFS,ContingencyActive,
+   ContingencyPrimaryActive,CalculationMethod,AltPFCheckHighVolt,
+   AltPFCheckLowVolt,AltPFCheck,SolutionOptions,OPF_SolutionType,
+   IterateOnActionStatus,AllowAmpLimits,ReactivePowerModel,PostCTGAuxFile,
+   PostCTGSolAuxFile,PreventIslandWithoutEnoughGen,RetryRobust,
+   SolutionOptionsUseSpecific,UseIncTP,ScreenAllow,ScreenIncludeVoltage,
+   ScreenVoltMaxItr,ScreenMethod,ScreenNumBranch,ScreenNumBus,ScreenNumBusPair,
+   ScreenNumInterface,ScreenVoltStoreViol,CTG_ReportMaxVioPerType,CTG_ReportAll,
+   CTG_ReportBaseCaseOutages,CTG_ReportBranchChangeFlowVio,CTG_ReportBusHighVolt,
+   CTG_ReportBusLowVolt,CTG_ReportBusVoltageExtremes,CTG_ReportCaseSummary,
+   CTG_ReportCondense,CTG_ReportCreateTables,CTG_ReportFieldSeparator,
+   CTG_ReportIDBusBy,CTG_ReportInactiveViolations,
+   CTG_ReportInterfaceChangeFlowVio,CTG_ReportInterfaceFlow,
+   CTG_ReportLargestBranchFlow,CTG_ReportLargestInterfaceFlow,CTG_ReportLineFlow,
+   CTG_ReportMonitoredAreas,CTG_ReportMonitoredZones,CTG_ReportOnlyNonZero,
+   CTG_ReportOnlyViolations,CTG_ReportOptionSettings,CTG_ReportVoltDecreaseVio,
+   CTG_ReportVoltIncreaseVio)
+{
+"C:\Users\dioma\OneDrive\Documents\Estudio\TFM_DAPD\TFM_DAPD\Simulacion\Contingen\Version2\manual_GMD_0p9144m_contingency.aux" "YES" "YES" "None" "None" 5 5 "     1"  0,000  0,000  0,000  0,000 1  0,000 "YES" "YES" 10,000 "" "NO " "NO " "PRETTY NAME_NUMBER" "YES" "NO " " 0" "" "" "AC"  1,100  0,900      0 "" NO  "NO " "NO " "Ignore" "" "" "NO " "NO " "NO " NO  "NO" "YES" 2 "DC" 20 20 10 10 "NO "       9999 "NO " "NO " "NO " "YES" "YES" "NO " "NO " "NO " "NO " "$"      3 "NO " "NO " "YES" "NO " "NO " "YES" "NO " "NO " "NO " "NO " "NO " "NO " "NO "
+}
+
+// THE FOLLOWING SECTION CONTAINS OPTIONS FOR MAKE UP GENERATION FOR CONTINGENCY ANALYSIS.
+Area (ObjectID,CTGMakeUpGen)
+{
+"Area '1'"     0,0000
+}
+
+//--------------------------------------------------------------------------------
+// THE FOLLOWING SECTION CONTAINS A DESCRIPTION OF THE CUSTOM MONITORS.
+//--------------------------------------------------------------------------------
+CustomMonitor (Name,Enabled,Category,ObjectType,Object,ObjectField,FilterPre,FilterPost,
+   UseMinIncrease,MinIncrease,UseMinDecrease,MinDecrease,ValueMeaning,
+   TrippingFilter,ActionToTake,MaxTimeDelayToConsider,DataMaintainerAssign)
+{
+"MON_MVA" "YES" "" "Branch" "" "MVAMax" "" "" "NO " 0 "NO " 0 "Actual" "" "Log Violation Only (Default)" 3600 ""
+"MON_Vpu" "YES" "" "Bus" "" "Vpu" "" "" "NO " 0 "NO " 0 "Actual" "" "Log Violation Only (Default)" 3600 ""
+}
+
+//--------------------------------------------------------------------------------
+// THE FOLLOWING SECTION CONTAINS A DESCRIPTION OF THE CONTINGENCY RECORDS.
+//--------------------------------------------------------------------------------
+Contingency (Name,Category,Skip,RemedialActionInclude,ScreenAllow,NormalRatingNoAction,Memo,
+   PostCTGAuxFile,SolutionOptionsUse,SolutionOptionsUseSpecific,
+   MonitorExceptionsUse,SolutionOptions,DataMaintainerAssign)
+{
+"FallaLinea1_PuntaEvans_ElBight" "" "NO " "YES" "NO " "NO " "" "none" "NO " "YES" "Use" "" ""
+"FallaLinea2_PuntaEvans_ElBight" "" "NO " "YES" "NO " "NO " "" "none" "NO " "NO " "Use" "" ""
+"FallaLinea1_PuntaEvans_SchoolHouse" "" "NO " "YES" "NO " "NO " "" "none" "NO " "NO " "Use" "" ""
+"FallaLinea1_ElBight_SchoolHouse" "" "NO " "YES" "NO " "NO " "" "none" "NO " "YES" "Use" "" ""
+"FallaElevador1_PuntaEvans" "" "NO " "YES" "NO " "NO " "" "none" "NO " "YES" "Use" "" ""
+"FallaElevador2_PuntaEvans" "" "NO " "YES" "NO " "NO " "" "none" "NO " "YES" "Use" "" ""
+"FallaElevador3_PuntaEvans" "" "NO " "YES" "NO " "NO " "" "none" "NO " "YES" "Use" "" ""
+"FallaTrafo1_ElBight" "" "NO " "YES" "NO " "NO " "" "none" "NO " "YES" "Use" "" ""
+"FallaTrafo2_ElBight" "" "NO " "YES" "NO " "NO " "" "none" "NO " "YES" "Use" "" ""
+"FallaTrafo1_SchoolHouse" "" "NO " "YES" "NO " "NO " "" "none" "NO " "YES" "Use" "" ""
+}
+ContingencyElement (Contingency,Object,Action,Criteria,TimeDelay,CriteriaStatus,Persistent,Comment)
+{
+"FallaLinea1_PuntaEvans_ElBight" "BRANCH 2 3 1" "OPEN" "" 0 "CHECK" "NO " ""
+"FallaLinea2_PuntaEvans_ElBight" "BRANCH 2 3 2" "OPEN" "" 0 "CHECK" "NO " ""
+"FallaLinea1_PuntaEvans_SchoolHouse" "BRANCH 2 4 1" "OPEN" "" 0 "CHECK" "NO " ""
+"FallaLinea1_ElBight_SchoolHouse" "BRANCH 3 4 1" "OPEN" "" 0 "CHECK" "NO " ""
+"FallaElevador1_PuntaEvans" "BRANCH 1 2 1" "OPEN" "" 0 "CHECK" "NO " ""
+"FallaElevador2_PuntaEvans" "BRANCH 1 2 2" "OPEN" "" 0 "CHECK" "NO " ""
+"FallaElevador3_PuntaEvans" "BRANCH 1 2 3" "OPEN" "" 0 "CHECK" "NO " ""
+"FallaTrafo1_ElBight" "BRANCH 3 5 1" "OPEN" "" 0 "CHECK" "NO " ""
+"FallaTrafo2_ElBight" "BRANCH 3 5 2" "OPEN" "" 0 "CHECK" "NO " ""
+"FallaTrafo1_SchoolHouse" "BRANCH 4 6 1" "OPEN" "" 0 "CHECK" "NO " ""
+}
+
+//--------------------------------------------------------------------------------
+// THE FOLLOWING SECTION CONTAINS CUSTOMIZED SETTINGS FOR THE DATA GRID DISPLAYS USED IN CONTINGENCY ANALYSIS.
+//--------------------------------------------------------------------------------
+DataGrid (Name,FilterPre,RowHeight,FontNonDefault,FontName,FontStyles,FontSize,FontColor,
+   SortVariable,SortOrder,Filter,Zoom,FrozenCols,RemoveTrailingZeros)
+{
+"Contingency" "YES"     13 "NO " "Segoe UI" ""      8      0 "" "High To Low" "" 100,000 -1 "NO "
+   <SUBDATA ColumnInfo>
+     "Name"                 206  8 1
+     "Skip"                  50  8 1
+     "Category"              50  8 1
+     "Processed"             50  8 1
+     "Solved"                50  8 1
+     "RemedialActionInclude"  50  8 1
+     "ScreenAllow"           50  8 1
+     "PostCTGAuxFile"        50  8 1
+     "LoadMWIslanded"        50  8 2
+     "GenMWIslanded"         50  8 2
+     "OccurredGlobalCount"   50  8 1
+     "OccurredTransientCount"  50  8 1
+     "OccurredRemedialCount"  50  8 1
+     "ViolCustom"            50  8 1
+     "Violations"            50  8 1
+     "BranchMaxPerc"         50  8 1
+     "MinVolt"               50  8 3
+     "MaxVolt"               50  8 3
+     "InterfaceMaxPerc"      50  8 1
+     "BusPairAngleMax"       50  8 1
+     "Memo"                 200  8 1
+   </SUBDATA>
+   <SUBDATA ColumnContourInfo>
+   </SUBDATA>
+"ContingencyDefinition" "YES"     13 "NO " "Segoe UI" ""      8      0 "" "High To Low" "" 100,000 -1 "NO "
+   <SUBDATA ColumnInfo>
+     "Description"          350  8 2
+     "Criteria"             100  8 2
+     "CriteriaStatus"        50  8 2
+     "Persistent"            64  8 2
+     "TimeDelay"             80  8 6
+     "Comment"              150  8 2
+   </SUBDATA>
+   <SUBDATA ColumnContourInfo>
+   </SUBDATA>
+}
+

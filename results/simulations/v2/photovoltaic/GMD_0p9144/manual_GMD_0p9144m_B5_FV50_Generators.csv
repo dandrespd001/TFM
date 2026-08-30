@@ -1,0 +1,5 @@
+Gen
+BusNum,BusName,ID,Status,MW,Mvar,MWMin,MWMax,AGC,AVR,RegBusNum,VoltSet,MvarMin,MvarMax,EnforceMWLimit,PartFact,CostModel,BusCat,RegBusNumUsed
+1,PE_132,DG,Closed,"   16,49","    5,10","    1,15","   64,99",YES,YES,1," 1,00000","  -20,00","   20,00",YES,"    1,00",None,Slack,1
+1,PE_132,RS,Closed,"    0,00","    0,00","    0,00","    1,95",NO,YES,1," 1,00000","    0,00","    0,00",YES,"    0,00",None,Slack,1
+5,5,FV,Closed,"   17,13","    0,00","    0,00","   17,13",NO,NO,5," 1,00000","-9900,00"," 9900,00",YES,"    0,00",None,PQ,5

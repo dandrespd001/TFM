@@ -1,0 +1,106 @@
+finding_id,requirement_id,task_id,evidence_path,gate,status
+,REQ-SRC-001,T1.01,reproducibilidad/v2/hashes_originales.csv,G0,completado
+,REQ-SRC-002,T3.02,DOCX final y plantilla VIU,G9,pendiente
+,REQ-SRC-003,T1.02,historico_v1/,G3,completado
+,REQ-SRC-004,T1.03,tablas activas v2,G3,completado
+,REQ-SRC-004,T1.04,tablas activas v2,G3,completado
+,REQ-SRC-004,T1.05,tablas activas v2,G3,completado
+,REQ-SRC-005,T1.04,tabla_resultados_por_escenario.csv,G3,completado
+,REQ-SRC-006,T1.05,bess_final/,G3,completado
+,REQ-SRC-007,T6.10,evidencia externa del autor,G12,pendiente
+,REQ-DAT-001,T1.03,tablas/tabla_estado_base_v2.csv,G3,completado
+,REQ-DAT-002,T1.04,tablas/tabla_resultados_por_escenario.csv,G3,completado
+,REQ-DAT-003,T1.05,bess_final/matriz_resultados_bess_v23.csv,G3,completado
+,REQ-DAT-004,T1.05,bess_final/resultados_bess_por_contingencia.csv,G3,completado
+,REQ-DAT-005,T1.05,bess_final/energia_bess.csv,G3,completado
+,REQ-DAT-006,T1.06,build_final_v2.py,G5,completado
+,REQ-DAT-007,T1.07,matriz_afirmaciones_finales.csv,G5,completado
+,REQ-DAT-008,T1.08,tablas activas v2,G3,completado
+,REQ-DAT-009,T1.08,resultados_bess_por_contingencia.csv,G4,completado
+,REQ-DAT-010,T1.09,EVIDENCIA_POWERWORLD_BASE.md,G2,completado
+,REQ-SCI-001,T3.03,objetivo general del DOCX,G4,pendiente
+,REQ-SCI-002,T3.04,objetivos y conclusiones del DOCX,G4,pendiente
+,REQ-SCI-002,T3.15,objetivos y conclusiones del DOCX,G4,pendiente
+,REQ-SCI-003,T3.05,hipótesis y conclusiones del DOCX,G4,pendiente
+,REQ-SCI-003,T3.15,hipótesis y conclusiones del DOCX,G4,pendiente
+,REQ-SCI-004,T3.07,metodología del DOCX,G4,pendiente
+,REQ-SCI-005,T3.06,metodología del DOCX,G4,pendiente
+,REQ-SCI-006,T3.06,metodología del DOCX,G4,pendiente
+,REQ-SCI-007,T3.06,criterios y discusión del DOCX,G4,pendiente
+,REQ-SCI-007,T3.14,criterios y discusión del DOCX,G4,pendiente
+,REQ-SCI-008,T3.12,objetivos y resultados suplementarios,G4,pendiente
+,REQ-SCI-009,T3.08,resultados del DOCX,G4,pendiente
+,REQ-SCI-009,T3.09,resultados del DOCX,G4,pendiente
+,REQ-SCI-009,T3.10,resultados del DOCX,G4,pendiente
+,REQ-SCI-009,T3.11,resultados del DOCX,G4,pendiente
+,REQ-SCI-009,T3.13,resultados del DOCX,G4,pendiente
+,REQ-SCI-010,T3.14,discusión y conclusiones del DOCX,G4,pendiente
+,REQ-SCI-010,T3.15,discusión y conclusiones del DOCX,G4,pendiente
+,REQ-SCI-010,T3.17,discusión y conclusiones del DOCX,G4,pendiente
+,REQ-WORD-001,T3.01,DOCX final versionado,G9,pendiente
+,REQ-WORD-001,T3.02,DOCX final versionado,G9,pendiente
+,REQ-WORD-002,T4.02,auditoría de secciones y páginas,G9,pendiente
+,REQ-WORD-003,T4.03,auditoría de estilos,G9,pendiente
+,REQ-WORD-004,T4.04,portada del DOCX y cierre del autor,G12,pendiente
+,REQ-WORD-005,T3.16,resumen y abstract,G9,pendiente
+,REQ-WORD-006,T4.05,inventario de campos Word,G8,pendiente
+,REQ-WORD-006,T4.06,inventario de campos Word,G8,pendiente
+,REQ-WORD-006,T4.11,inventario de campos Word,G8,pendiente
+,REQ-WORD-007,T4.07,auditoría de tablas y captions,G8,pendiente
+,REQ-WORD-008,T4.09,inventario OMML,G8,pendiente
+,REQ-WORD-009,T4.08,auditoría de accesibilidad,G8,pendiente
+,REQ-WORD-009,T4.10,auditoría de accesibilidad,G8,pendiente
+,REQ-WORD-010,T4.01,auditoría de revisiones/comentarios,G8,pendiente
+,REQ-WORD-011,T5.05,inventario CSL_CITATION/CSL_BIBLIOGRAPHY,G7,pendiente
+,REQ-WORD-011,T5.06,inventario CSL_CITATION/CSL_BIBLIOGRAPHY,G7,pendiente
+,REQ-WORD-011,T5.09,inventario CSL_CITATION/CSL_BIBLIOGRAPHY,G7,pendiente
+,REQ-WORD-012,T5.02,auditoría Zotero/APA legal,G7,pendiente
+,REQ-WORD-012,T5.03,auditoría Zotero/APA legal,G7,pendiente
+,REQ-WORD-012,T5.04,auditoría Zotero/APA legal,G7,pendiente
+,REQ-WORD-013,T5.01,respaldo e inventario de 27 referencias,G7,pendiente
+,REQ-WORD-013,T5.07,respaldo e inventario de 27 referencias,G7,pendiente
+,REQ-WORD-013,T5.08,respaldo e inventario de 27 referencias,G7,pendiente
+,REQ-WORD-013,T6.04,respaldo e inventario de 27 referencias,G7,pendiente
+,REQ-WORD-014,T6.06,PDF exportado desde Word,G11,pendiente
+,REQ-QA-001,T1.10,informe de cadenas prohibidas,G5,completado
+,REQ-QA-001,T3.18,informe de cadenas prohibidas,G5,pendiente
+,REQ-QA-001,T6.02,informe de cadenas prohibidas,G5,pendiente
+,REQ-QA-002,T6.01,auditoría matemática,G5,pendiente
+,REQ-QA-003,T6.01,correspondencia de afirmaciones,G5,pendiente
+,REQ-QA-004,T2.06,cierre_hallazgos.csv,G6,pendiente
+,REQ-QA-004,T6.05,cierre_hallazgos.csv,G6,pendiente
+,REQ-QA-005,T6.03,auditoría estructural DOCX,G8,pendiente
+,REQ-QA-006,T6.07,acta_revision_visual.csv,G10,pendiente
+,REQ-QA-006,T6.08,acta_revision_visual.csv,G10,pendiente
+,REQ-QA-007,T2.01,paquete final y hashes,G11,completado
+,REQ-QA-007,T2.02,paquete final y hashes,G11,completado
+,REQ-QA-007,T2.03,paquete final y hashes,G11,completado
+,REQ-QA-007,T2.04,paquete final y hashes,G11,completado
+,REQ-QA-007,T2.05,paquete final y hashes,G11,pendiente
+,REQ-QA-007,T6.09,paquete final y hashes,G11,pendiente
+,REQ-QA-008,T6.10,INFORME_AUDITORIA_FINAL.md,G11,pendiente
+,REQ-QA-009,T6.10,evidencia externa del autor,G12,pendiente
+,REQ-QA-010,T2.07,auditoría de coherencia,G4,pendiente
+,REQ-QA-010,T3.18,auditoría de coherencia,G4,pendiente
+AUD-001,REQ-SCI-001,T3.03,auditoria_final_v2/cierre_hallazgos.csv,G4,pendiente
+AUD-002,REQ-WORD-007,T4.07,auditoria_final_v2/cierre_hallazgos.csv,G8,pendiente
+AUD-003,REQ-WORD-004,T4.04,auditoria_final_v2/cierre_hallazgos.csv,G12,bloqueado_autor
+AUD-004,REQ-WORD-006,T4.06,auditoria_final_v2/cierre_hallazgos.csv,G8,pendiente
+AUD-005,REQ-WORD-012,T5.02,auditoria_final_v2/cierre_hallazgos.csv,G7,pendiente
+AUD-006,REQ-WORD-013,T5.08,auditoria_final_v2/cierre_hallazgos.csv,G7,pendiente
+AUD-007,REQ-WORD-013,T5.08,auditoria_final_v2/cierre_hallazgos.csv,G7,pendiente
+AUD-008,REQ-WORD-011,T5.06,auditoria_final_v2/cierre_hallazgos.csv,G7,pendiente
+AUD-009,REQ-SCI-007,T3.14,auditoria_final_v2/cierre_hallazgos.csv,G4,pendiente
+AUD-010,REQ-SCI-008,T3.12,auditoria_final_v2/cierre_hallazgos.csv,G4,pendiente
+AUD-011,REQ-WORD-008,T4.09,auditoria_final_v2/cierre_hallazgos.csv,G8,pendiente
+AUD-012,REQ-WORD-007,T4.06,auditoria_final_v2/cierre_hallazgos.csv,G8,pendiente
+AUD-013,REQ-SCI-009,T3.13,auditoria_final_v2/cierre_hallazgos.csv,G4,pendiente
+AUD-014,REQ-WORD-012,T5.02,auditoria_final_v2/cierre_hallazgos.csv,G7,pendiente
+AUD-015,REQ-SCI-007,T3.06,auditoria_final_v2/cierre_hallazgos.csv,G4,pendiente
+AUD-016,REQ-SCI-003,T3.15,auditoria_final_v2/cierre_hallazgos.csv,G4,pendiente
+AUD-017,REQ-WORD-007,T4.07,auditoria_final_v2/cierre_hallazgos.csv,G8,pendiente
+AUD-018,REQ-SCI-010,T3.17,auditoria_final_v2/cierre_hallazgos.csv,G4,pendiente
+AUD-019,REQ-SCI-004,T3.07,auditoria_final_v2/cierre_hallazgos.csv,G4,pendiente
+AUD-020,REQ-WORD-009,T4.10,auditoria_final_v2/cierre_hallazgos.csv,G8,pendiente
+AUD-021,REQ-WORD-003,T4.07,auditoria_final_v2/cierre_hallazgos.csv,G9,pendiente
+AUD-022,REQ-SCI-010,T3.17,auditoria_final_v2/cierre_hallazgos.csv,G4,pendiente
