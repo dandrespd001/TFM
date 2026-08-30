@@ -1,5 +1,0 @@
-case_id,gmd_m,bess_bus,bess_mw,base_solved,mismatch_max_mva,v_min_base_pu,v_min_bus,v_max_base_pu,max_loading_base_pct,p_loss_base_mw,q_loss_base_mvar,ctg_processed,ctg_solved,voltage_violations,thermal_violations,island_contingency,islanded_load_mw,evidence_path,notes
-BESS-01,0.9144,5,9.119585771,,,,,,,,,,,,,FallaTrafo1_SchoolHouse,,GMD_0p9144m_B5/,
-BESS-02,0.9144,6,4.519756455,,,,,,,,,,,,,FallaTrafo1_SchoolHouse,,GMD_0p9144m_B6/,
-BESS-03,1.2192,5,9.119585771,,,,,,,,,,,,,FallaTrafo1_SchoolHouse,,GMD_1p2192m_B5/,
-BESS-04,1.2192,6,4.519756455,,,,,,,,,,,,,FallaTrafo1_SchoolHouse,,GMD_1p2192m_B6/,

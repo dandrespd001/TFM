@@ -1,16 +1,13 @@
 {
   "schema_version": 1,
   "purpose": "Inventario autocontenido del paquete GitHub del TFM desde V2",
-  "file_count_excluding_manifest_and_git": 380,
-  "total_bytes_excluding_manifest_and_git": 7105117,
+  "file_count_excluding_manifest_and_git": 332,
+  "total_bytes_excluding_manifest_and_git": 1584809,
   "extensions": {
     ".aux": 107,
-    ".bib": 3,
-    ".csv": 221,
-    ".docx": 3,
-    ".json": 14,
-    ".md": 13,
-    ".pdf": 2,
+    ".csv": 198,
+    ".json": 2,
+    ".md": 8,
     ".png": 4,
     ".pwb": 5,
     ".pwd": 3,
@@ -26,38 +23,13 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 196,
-      "sha256": "962d2eb9087358e8f3e7e90515857eea090b268fa3a8633f7bc07318a4f663f3"
+      "bytes": 87,
+      "sha256": "b3e89008492ded3c295bc5702c8348973697229b595ee0542924ad3869ec0869"
     },
     {
       "path": "AGENTS.md",
-      "bytes": 2707,
-      "sha256": "536c387fc9d10a19a0c22d1cbcea3079e32681c80f6b9b49ffc0bc6ec2974485"
-    },
-    {
-      "path": "archive/v2-planning/bess/historico_der/energia_bess_pre_simulacion.csv",
-      "bytes": 369,
-      "sha256": "6ff869c141c9f39ccdd117ca0cd0bacf005722c178c4ec2271938d18f53f95d4"
-    },
-    {
-      "path": "archive/v2-planning/bess/historico_der/matriz_resultados_bess_pre_simulacion.csv",
-      "bytes": 602,
-      "sha256": "ae32c6a6a72efe7122b49f337ab7ff4f02a03e8028af900ba41ba2d782a0bb08"
-    },
-    {
-      "path": "archive/v2-planning/bess/historico_planificacion/matriz_resultados_bess_v23_vacia.csv",
-      "bytes": 827,
-      "sha256": "8edd991c9639083def15bff1d9abd8e5a17a1db084a256189968161c78f5a00a"
-    },
-    {
-      "path": "archive/v2-planning/manifest_campana.csv",
-      "bytes": 439619,
-      "sha256": "f216f6dbe0efe4e1d7359731dcbcdd72ec26ba3bf227c09742c7bad20c63a840"
-    },
-    {
-      "path": "archive/v2-planning/resumen_manifest_campana.json",
-      "bytes": 1007,
-      "sha256": "e42f2cb11fb523db1a3ff87bf457adb4cc0c316623bf76447ff13fe19fa3a67b"
+      "bytes": 1619,
+      "sha256": "717632bf41fbba08c40f590aa4e88109ee621f68e585b1ac51cf18620ea337ce"
     },
     {
       "path": "data/provenance/v2/aux_schema_validado.json",
@@ -75,94 +47,39 @@
       "sha256": "d9501f16669f6bc062000eaaed054784e5fff79a45f31fc23339ebb39e2ebbc4"
     },
     {
-      "path": "data/provenance/v2/hashes_originales.csv",
-      "bytes": 655,
-      "sha256": "fdeef26d2da9e9911d5804eb97eedc12c81e993e90a12afe0750d27104f2d31b"
-    },
-    {
       "path": "data/provenance/v2/registro_parametros.csv",
       "bytes": 1989,
       "sha256": "aa826ff936248395879fff0329f9643aa02d998cecfcd7943999d41c66d8b519"
     },
     {
-      "path": "deliverables/v2/Informe_auditoria_TFM_San_Andres_v2.md",
-      "bytes": 12273,
-      "sha256": "ddf42e95dc48d0b4a469afa471eaa1b5ead8685a98df438620c45ea72e69e14a"
-    },
-    {
-      "path": "deliverables/v2/TFM_San_Andres_APA_VIU_Diomar_Andres_Pacheco_D_FINAL_V2.docx",
-      "bytes": 675364,
-      "sha256": "bee726bf2481d6fa47189705f2271ef4cd021522b33b091177e16203fdf0509c"
-    },
-    {
-      "path": "deliverables/v3/Informe_auditoria_TFM_San_Andres_v3.md",
-      "bytes": 11564,
-      "sha256": "f56eb8775ae18edd01c1276bfdd37804104697f0f731a5a0d9308712cafdfbb9"
-    },
-    {
-      "path": "deliverables/v3/TFM_San_Andres_APA_VIU_Diomar_Andres_Pacheco_D_FINAL_V3.docx",
-      "bytes": 896781,
-      "sha256": "0a3c30d07306897bda86d708d252a9cbbc1bc8895663248834a193b940b8ab95"
-    },
-    {
-      "path": "deliverables/v3/TFM_San_Andres_APA_VIU_Diomar_Andres_Pacheco_D_FINAL_V3.pdf",
-      "bytes": 1148562,
-      "sha256": "96884ea9d99c781d623a6090937e73432a6a7ad78b6aee5c3f6492bb60812230"
-    },
-    {
-      "path": "deliverables/v4/Informe_auditoria_TFM_San_Andres_v4.md",
-      "bytes": 11998,
-      "sha256": "9ce500622ecc46423d52515fb1570275ba892d0dedd108504278b41ff9ee6dab"
-    },
-    {
-      "path": "deliverables/v4/TFM_San_Andres_APA_VIU_Diomar_Andres_Pacheco_D_FINAL_V4.docx",
-      "bytes": 896817,
-      "sha256": "11c7843d51824fdf5084cf2b432b028836c61be95d1ec045d1e2d507a13ef43e"
-    },
-    {
-      "path": "deliverables/v4/TFM_San_Andres_APA_VIU_Diomar_Andres_Pacheco_D_FINAL_V4.pdf",
-      "bytes": 1134348,
-      "sha256": "5978e1bd8beb3175b35eb11d025dae4e5a618a7ecd41f1ace335f4a1d2abd4ef"
-    },
-    {
       "path": "docs/DATA_DICTIONARY.md",
-      "bytes": 3441,
-      "sha256": "bb1c2240244d44a9a8b83ad308c4c9d9533e17242dd9dfe2ab1c67892aa7cedc"
+      "bytes": 1224,
+      "sha256": "196a776929f2c4f973d0e2a85cf1d8347d6c0b53acda9d65d9c8ac0c1665959d"
     },
     {
       "path": "docs/DATA_PROVENANCE.md",
-      "bytes": 2896,
-      "sha256": "7fb938113a72499aa3abf325be82bc72f02f606ba494f7e4d311225e8c2def5e"
-    },
-    {
-      "path": "docs/EXTERNAL_REFERENCES.md",
-      "bytes": 1622,
-      "sha256": "6b81ceaae07193adfd76eedd05b4e20f8c8c3b8598a7ead01d5a81c7ff5f8c8b"
-    },
-    {
-      "path": "docs/GPT_WORK_CONTEXT.md",
-      "bytes": 3829,
-      "sha256": "585bb91129aefd80eca8363c144dbc8db0ff33ea0f3dfd4d07910f20f4438a08"
+      "bytes": 1138,
+      "sha256": "93d9b005cc4bc5826263c572b2aa8494c5a755de99ffab3173778a8ae442b443"
     },
     {
       "path": "docs/KNOWN_LIMITATIONS.md",
-      "bytes": 1867,
-      "sha256": "54142755d5a4a0140fe576706d6b22473e97ba08be3eeeb7c8255cbb1a5763aa"
+      "bytes": 892,
+      "sha256": "71910a754eeb79b9a3c4b0c1a2b264a803f7e011d20d3f64c086b75246c34847"
     },
     {
       "path": "docs/REPOSITORY_GUIDE.md",
-      "bytes": 4044,
-      "sha256": "5bac0a74c87a1ae2c4b887ba66b77f8e35d017b62a2b25259e00c25314883c60"
+      "bytes": 1891,
+      "sha256": "3e1fbcc4c766dcdb95aebe703942f57171fe2b67e31e6f0e631c07ad8538b121"
     },
     {
-      "path": "docs/VERSION_HISTORY.md",
-      "bytes": 1022,
-      "sha256": "069138ea39f26830d9e63ae9cbccbb0724872a6b6a3247cf5c704122567ec9b2"
+      "path": "docs/SIMULATION_EVIDENCE_SCOPE.md",
+      "bytes": 1425,
+      "sha256": "4271755d4746b647557131005b5ce7a75cf0b05eb045287a8a5ce80dc4044a18"
     },
     {
       "path": "manifests/SOURCE_MANIFEST.csv",
-      "bytes": 133860,
-      "sha256": "fed8dd3b3b793a9709b7aff06e9ff310e404a32631538c173ee75847fae1a2c8"
+      "bytes": 124723,
+      "sha256": "f6dbf472fa5d17b610b5f2c945745ac33d4eec9edf984ffa34291b5d3141be93"
     },
     {
       "path": "models/powerworld/v2/GMD_0p9144m/Base A — GMD 0,9144 m.PWB",
@@ -321,168 +238,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4424,
-      "sha256": "be3f6f47f0169e2bf5b0f9b8cc45823240bc4bcf3752f8d43cb1eadaf5536f66"
-    },
-    {
-      "path": "references/v2/zotero_backup_antes_final.bib",
-      "bytes": 12579,
-      "sha256": "148c76c7de0a5e6c5f9f459c08dc64fcf7cbfd11e881001b13b7c0fc072f69cf"
-    },
-    {
-      "path": "references/v2/zotero_items_csl.json",
-      "bytes": 19065,
-      "sha256": "b0d499245379676915d1e02e9d239f72f597520023adbfec594adc45b651939a"
-    },
-    {
-      "path": "references/v3/fuentes_nuevas_apa_v3.json",
-      "bytes": 8753,
-      "sha256": "e9e77f5062c2f49284d2389f679fa534ba873e901df4fbb6f0933cda5c39458d"
-    },
-    {
-      "path": "references/v3/fuentes_nuevas_v3.bib",
-      "bytes": 5811,
-      "sha256": "2b7be0045663aecb4398560101bdd7274d6c1a39d59415ef7b49e0cfbc567f50"
-    },
-    {
-      "path": "references/v3/inventario_bibliografia_v3.csv",
-      "bytes": 8716,
-      "sha256": "9058ec1f0befa9f683e1feb0cb05ef1621fcfec458880d08470f7d88449af629"
-    },
-    {
-      "path": "references/v3/inventario_citas_v3.csv",
-      "bytes": 3676,
-      "sha256": "8b84e0ce34106b14b466e78d61cfdfd7b1648711048ae59fa0faa5cd6e964d12"
-    },
-    {
-      "path": "references/v3/zotero_items_csl_v3.json",
-      "bytes": 30392,
-      "sha256": "d0ffe44255de1f6ad6d11a88a64c87b0c54ee3c744e90ecc7df74ad98889c2ca"
-    },
-    {
-      "path": "references/v4/fuentes_nuevas_v4.bib",
-      "bytes": 5811,
-      "sha256": "2b7be0045663aecb4398560101bdd7274d6c1a39d59415ef7b49e0cfbc567f50"
-    },
-    {
-      "path": "references/v4/inventario_bibliografia_v4.csv",
-      "bytes": 8716,
-      "sha256": "9058ec1f0befa9f683e1feb0cb05ef1621fcfec458880d08470f7d88449af629"
-    },
-    {
-      "path": "references/v4/inventario_citas_v4.csv",
-      "bytes": 3676,
-      "sha256": "8b84e0ce34106b14b466e78d61cfdfd7b1648711048ae59fa0faa5cd6e964d12"
-    },
-    {
-      "path": "references/v4/zotero_items_csl_v4.json",
-      "bytes": 30392,
-      "sha256": "d0ffe44255de1f6ad6d11a88a64c87b0c54ee3c744e90ecc7df74ad98889c2ca"
-    },
-    {
-      "path": "results/quality/v2/matriz_afirmaciones_finales.csv",
-      "bytes": 16747,
-      "sha256": "61899a73c88eab7ca09826d6ae44c297b09894f6bf6636eed67770f38831b97a"
-    },
-    {
-      "path": "results/quality/v2/registro_tablas_figuras_documento_v2.csv",
-      "bytes": 1157,
-      "sha256": "b7af62cdf698dbd0ed95021f1ced12981d5c0ceb66316c81e3eded739e66018c"
-    },
-    {
-      "path": "results/quality/v2/resultados_barras.csv",
-      "bytes": 56,
-      "sha256": "9d1dcaa4942cc8a255fe3631bd16d322230713b2ebb27a2bc1089d9cfabf748c"
-    },
-    {
-      "path": "results/quality/v2/resultados_ramas.csv",
-      "bytes": 119,
-      "sha256": "252d17d325ca425d8619deaaaf487bbca5c4b745bcf30333f08c01ea260719f6"
-    },
-    {
-      "path": "results/quality/v2/resultados_runs.csv",
-      "bytes": 145,
-      "sha256": "0914a0c02bf05a64d8f86b79e3427b595782eff7970b1e0d6dca1568fb68d5cc"
-    },
-    {
-      "path": "results/quality/v2/trazabilidad_cierre.csv",
-      "bytes": 6970,
-      "sha256": "aee93d1d2c8adf30034cccca298e72c96501e0c4314d419a5560274b431bb8f8"
-    },
-    {
-      "path": "results/quality/v3/manifest_final_v3.json",
-      "bytes": 2160,
-      "sha256": "1127ff5bfb6ebb1ba9f4a9e2ff59fd9746a3e0f624fbdba7b01b2f27ee0b6ad7"
-    },
-    {
-      "path": "results/quality/v3/matriz_afirmaciones_finales_v3.csv",
-      "bytes": 33029,
-      "sha256": "aa7b89f29f362eacfe58f96149e652c66a62df88eec609f6f75a9d2bfd241ed8"
-    },
-    {
-      "path": "results/quality/v3/registro_tablas_figuras_documento_v3.csv",
-      "bytes": 1417,
-      "sha256": "cae37e05b4ab8e73981eb1546d66b9576e14c9286c805cee46e216656b8cd98b"
-    },
-    {
-      "path": "results/quality/v4/acta_revision_visual_v4.csv",
-      "bytes": 13475,
-      "sha256": "8a4d607b8224c4d650380b3e73261f005a825c42d7ffae76345f340210288c18"
-    },
-    {
-      "path": "results/quality/v4/control_atribucion_local_v4.json",
-      "bytes": 404,
-      "sha256": "1523f40ae21c69292afc21ecb813fcd58a9c02612fc8fe5fd08b56930a9a92d6"
-    },
-    {
-      "path": "results/quality/v4/controles_automaticos_v4.json",
-      "bytes": 1107,
-      "sha256": "6910b9239d7478dd2f47c4dd2225773c1257125031f7a73c50236761477fd30e"
-    },
-    {
-      "path": "results/quality/v4/hashes_finales_v4.json",
-      "bytes": 595,
-      "sha256": "ee2eb883eaecabafaeb85f28e3b576765822aeb8b080cb7d51ea2d487dad7ad6"
-    },
-    {
-      "path": "results/quality/v4/manifest_final_v4.json",
-      "bytes": 5612,
-      "sha256": "478169aed0c4580c667880073e424c092dba01be30969c2f9e07f0512c117126"
-    },
-    {
-      "path": "results/quality/v4/matriz_afirmaciones_finales_v4.csv",
-      "bytes": 33029,
-      "sha256": "aa7b89f29f362eacfe58f96149e652c66a62df88eec609f6f75a9d2bfd241ed8"
-    },
-    {
-      "path": "results/quality/v4/matriz_coherencia_v4.csv",
-      "bytes": 3363,
-      "sha256": "ba1015440bc230b5e045a083d4cf17c0fc8f23e6fcda364283beb61ac8d9809f"
-    },
-    {
-      "path": "results/quality/v4/matriz_requisitos_viu_v4.csv",
-      "bytes": 3104,
-      "sha256": "677a691ab41cacfd11697c5eb7a099d1446a5fa2f83b5ac4abd86ab6198873b0"
-    },
-    {
-      "path": "results/quality/v4/protected_hashes_v4.json",
-      "bytes": 1425,
-      "sha256": "b1e8ba8e420c73a78e72789e47119b33313afad4955af68d1898e485eaacc128"
-    },
-    {
-      "path": "results/quality/v4/registro_cambios_v3_v4.csv",
-      "bytes": 1873,
-      "sha256": "916a63a01acd3154b5a33f9ed7a58bc5d3d25374378c4efecbab21acd6bef397"
-    },
-    {
-      "path": "results/quality/v4/registro_tablas_figuras_documento_v4.csv",
-      "bytes": 1417,
-      "sha256": "cae37e05b4ab8e73981eb1546d66b9576e14c9286c805cee46e216656b8cd98b"
-    },
-    {
-      "path": "results/quality/v4/turnitin_status_v4.json",
-      "bytes": 376,
-      "sha256": "55e4fff17b5286de5fe51713f6255f892093514a51a9a061571c8e6f59fdf305"
+      "bytes": 2554,
+      "sha256": "c97535115e15e98393c8e8784e0107bffd62987d008d806513772582dab51799"
     },
     {
       "path": "results/simulations/v2/bess/consolidado_bess_final.xlsx",

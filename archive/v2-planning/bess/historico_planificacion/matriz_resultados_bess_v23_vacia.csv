@@ -1,5 +1,0 @@
-case_id,gmd_m,bess_bus,bess_mw,lower_check_mw,base_solved,mismatch_max_mva,v_min_base_pu,v_min_bus,v_max_base_pu,max_loading_base_pct,p_loss_base_mw,q_loss_base_mvar,ctg_processed,ctg_solved,v_min_ctg_pu,v_min_ctg_bus,governing_contingency,thermal_violations,island_contingency,islanded_load_mw,evidence_path,decision,notes
-BESS-01,0.9144,5,10,,,,,,,,,,,,,,,,FallaTrafo1_SchoolHouse,,GMD_0p9144m_B5/,"probar límite; si Vmin<0.95, P_BESS > 10 MW",
-BESS-02,0.9144,6,5.25,5,,,,,,,,,,,,,,,FallaTrafo1_SchoolHouse,,GMD_0p9144m_B6/,verificar 5.25 MW y control inferior 5.00 MW,
-BESS-03,1.2192,5,10,,,,,,,,,,,,,,,,FallaTrafo1_SchoolHouse,,GMD_1p2192m_B5/,"probar límite; si Vmin<0.95, P_BESS > 10 MW",
-BESS-04,1.2192,6,5.25,5,,,,,,,,,,,,,,,FallaTrafo1_SchoolHouse,,GMD_1p2192m_B6/,verificar 5.25 MW y control inferior 5.00 MW,
